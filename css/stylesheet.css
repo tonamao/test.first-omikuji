@@ -25,7 +25,7 @@ body {
 	opacity: 1;/* ホバーしたら明るくなる */
 }
 
-#btn.pushed {
+#btn.active {
 	margin-top: 36px;/* トップをさげてボタンを押した感 */
 	box-shadow: 0 4px 0 #D1483E;/* 影を狭くしてボタンを押した感 */
 
