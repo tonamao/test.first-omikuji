@@ -4,7 +4,9 @@
 	var btn = document.getElementById('btn');
 
 	btn.addEventListener('click', function() {
-		this.textContent = 'hit!';
+		var results = ['大吉', '中吉', '小吉', '凶'];
+	    var randomNum = Math.floor(Math.random() * results.length)
+	    this.textContent = results[randomNum];
 	});
 	btn.addEventListener('mousedown', function() {
 		this.className = 'pushed';
