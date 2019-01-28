@@ -6,6 +6,32 @@ body {
 
 #btn {
 	margin: 30px auto 0;
+	width: 240px;
+	height: 40px;
+	border-radius: 6px;/* 縁を丸く削る */
+	background: #EF454A;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
+	opacity: 0.9;/* ちょい暗めに */
+	box-shadow: 0 5px 0 #D1483E;
+	border: 3px solid #D1483E;/* ボタンに縁を付ける */
+}
+
+#btn:hover {
+	opacity: 1;/* ホバーしたら明るくなる */
+}
+
+#btn.pushed {
+	margin-top: 36px;/* トップをさげてボタンを押した感 */
+	box-shadow: 0 4px 0 #D1483E;/* 影を狭くしてボタンを押した感 */
+}
+
+#result {
+	margin: 30px auto 0;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;/* 縁を丸く削る */
@@ -21,12 +47,6 @@ body {
 	border: 3px solid #D1483E;/* ボタンに縁を付ける */
 }
 
-#btn:hover {
-	opacity: 1;/* ホバーしたら明るくなる */
-}
-
-#btn.pushed {
-	margin-top: 36px;/* トップをさげてボタンを押した感 */
-	box-shadow: 0 4px 0 #D1483E;/* 影を狭くしてボタンを押した感 */
-
+#rslt {
+  text-align: center;
 }
