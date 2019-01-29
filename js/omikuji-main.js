@@ -9,7 +9,7 @@
     	  "img/omikuji_kamikichi.png",
     	  "img/omikuji_daikichi.png",
     	  "img/omikuji_chukichi.png",
-    	  "img/omikuji_syokichi.png",
+    	  "img/omikuji_syoukichi.png",
     	  "img/omikuji_kichi.png",
     	  "img/omikuji_kyou.png"];
       var randomNum = Math.floor(Math.random() * 100);
