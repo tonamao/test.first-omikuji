@@ -18,13 +18,13 @@
     	  index = 0;
       }else if(2 <= randomNum && randomNum < 22){
     	  index = 1;
-      }else if(22 <= randomNum && randomNum < 42){
+      }else if(22 <= randomNum && randomNum < 47){
     	  index = 2;
-      }else if(42 <= randomNum && randomNum < 62){
+      }else if(47 <= randomNum && randomNum < 72){
     	  index = 3;
-      }else if(62 <= randomNum && randomNum < 82){
+      }else if(72 <= randomNum && randomNum < 92){
     	  index = 4;
-      }else if(82 <= randomNum && randomNum < 100){
+      }else if(92 <= randomNum && randomNum < 100){
     	  index = 5;
       }
       var element = '<img src="' + imglist[index] + '" alt = "" />'
