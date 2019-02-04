@@ -31,27 +31,11 @@ body {
 }
 
 #result {
-	margin: 30px auto 0;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;/* 縁を丸く削る */
-	background: #EF454A;
 	text-align: center;
-	line-height: 200px;
-	color: #fff;
-	font-size: 42px;
-	font-weight: bold;
-	cursor: pointer;
-	opacity: 0.9;/* ちょい暗めに */
-	box-shadow: 0 10px 0 #D1483E;
-	border: 3px solid #D1483E;/* ボタンに縁を付ける */
-}
-
-#rslt {
-  text-align: center;
 }
 
 img {
 	width: 16%;
 	margin: 40px;
+	text-align: center;
 }

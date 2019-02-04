@@ -1,17 +1,16 @@
 (function() {
 	'use strict';
 	var btn = document.getElementById('btn');
-	var result = document.getElementById('result');
-	var rslt = document.getElementById('rslt');
+	var rslt = document.getElementById('result');
 
 	btn.addEventListener('click', function() {
       var imglist = [
-    	  "img/omikuji_kamikichi.png",
-    	  "img/omikuji_daikichi.png",
-    	  "img/omikuji_chukichi.png",
-    	  "img/omikuji_syoukichi.png",
-    	  "img/omikuji_kichi.png",
-    	  "img/omikuji_kyou.png"];
+    	  "kamikichi",
+    	  "daikichi",
+    	  "chukichi",
+    	  "syoukichi",
+    	  "kichi",
+    	  "kyou"];
       var randomNum = Math.floor(Math.random() * 100);
       var index;
       if(0 <= randomNum && randomNum < 2){
@@ -27,8 +26,14 @@
       }else if(92 <= randomNum && randomNum < 100){
     	  index = 5;
       }
-      var element = '<img src="' + imglist[index] + '" alt = "" />'
-      rslt.innerHTML = element;
+      for(var i = 0; i < imglist.length; i++){
+    	  if(i == index) {
+        	  document.getElementById(imglist[index]).style.display = '';
+    	  }else{
+        	  document.getElementById(imglist[i]).style.display = 'none';
+    	  }
+      }
+
 	});
 
 	btn.addEventListener('mousedown', function() {
